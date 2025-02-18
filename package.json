@@ -11,7 +11,7 @@
   "dependencies": {
     "canvas": "^3.1.0",
     "next": "^15",
-    "polotno": "^2.19.2",
+    "polotno": "^2.20.0",
     "react": "^19",
     "react-dom": "^19"
   },
@@ -19,7 +19,7 @@
     "polotno": {
       "react": "^19",
       "react-dom": "^19",
-      "react-konva": "^19"
+      "react-konva": "^19.0.3"
     }
   },
   "devDependencies": {
