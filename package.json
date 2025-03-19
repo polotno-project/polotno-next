@@ -15,11 +15,11 @@
     "react": "^19",
     "react-dom": "^19"
   },
-  "overrides": {
-    "polotno": {
-      "react": "^19",
-      "react-dom": "^19",
-      "react-konva": "^19.0.3"
+  "pnpm": {
+    "overrides": {
+      "polotno>react": "^19",
+      "polotno>react-dom": "^19",
+      "polotno>react-konva": "19.0.3"
     }
   },
   "devDependencies": {
