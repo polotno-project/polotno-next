@@ -5,8 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 ```bash
-# force is required to fix some peer dependencies issues
-npm install --force
+npm install
 ```
 
 First, run the development server:
