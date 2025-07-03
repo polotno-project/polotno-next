@@ -24,7 +24,7 @@ export const Editor = () => {
     <PolotnoContainer style={{ width: '100vw', height: '100vh' }}>
       <link
         rel="stylesheet"
-        href="https://unpkg.com/@blueprintjs/core@latest/lib/css/blueprint.css"
+        href="https://unpkg.com/@blueprintjs/core@5/lib/css/blueprint.css"
       />
       <SidePanelWrap>
         <SidePanel store={store} />
