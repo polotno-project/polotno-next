@@ -14,14 +14,14 @@ importers:
   .:
     dependencies:
       canvas:
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.2
+        version: 3.1.2
       next:
         specifier: ^15
         version: 15.2.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       polotno:
-        specifier: ^2.22.1
-        version: 2.22.1(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^2.25.10
+        version: 2.25.10(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19
         version: 19.0.0
@@ -30,8 +30,8 @@ importers:
         version: 19.0.0(react@19.0.0)
     devDependencies:
       '@types/node':
-        specifier: ^22
-        version: 22.13.11
+        specifier: ^24
+        version: 24.1.0
       '@types/react':
         specifier: ^19
         version: 19.0.12
@@ -51,8 +51,8 @@ packages:
   '@blueprintjs/colors@5.1.8':
     resolution: {integrity: sha512-rCl+NZwR6xjJeCB6yWglbqWU2zOdVgeI5unBASalzMXWpRO0UXIjx0pA/Vtii4cB2kIdk8PaHTlGmZnLTu/MSg==}
 
-  '@blueprintjs/core@5.17.6':
-    resolution: {integrity: sha512-HwcVo0SuvLiEHq3pBC2JjsnpeWzi9eGhsMVYF/QFZNzILu6fWGkaUby/LvVuQb/UVhYsj+1BOrRm0aWEiOM8Sg==}
+  '@blueprintjs/core@5.19.0':
+    resolution: {integrity: sha512-wgQUNX92ffT1A358BeAseRe/MsyYW84U5xX6vo6UV45vHj18S/gOvqOZ1qew2xtAWudAFsxB8jqmrgJRwFsDqg==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
@@ -62,8 +62,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@blueprintjs/icons@5.20.0':
-    resolution: {integrity: sha512-VFUL7YDjV1o9DtGlpcuMDDDfNW//iCOZiz9FVhJ6pLJLmOdX6jfIndODVdbJjTVmruNLZcSOsZITvb9Zdwh6ew==}
+  '@blueprintjs/icons@5.23.0':
+    resolution: {integrity: sha512-yxQ+A0V79/UsyIw4XYuEvaFqr3FIaRlp79rKh+ZdHLafedqPfp4LO6xtF6EziWFCvuHOTJdFCfSC8AoQeSENMw==}
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
       react: ^16.8 || 17 || 18
@@ -72,8 +72,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@blueprintjs/select@5.3.18':
-    resolution: {integrity: sha512-WJ4jmQFvHxc0g/I+35Sp/JYsatUpB2bMclfkUsuUcq7cS9e19dYdC/k8XpJiNldLmiVmHJDHnPEz3nIBX3HZsw==}
+  '@blueprintjs/select@5.3.20':
+    resolution: {integrity: sha512-QVuaiEvZ5Xt/nBqWhvddYLuSDzkreq8NSX3ahpuS63ezSxvRJ6r0r8n0G9Zbnl9uNDdpK+Jc+TX8u1xmO1uW8A==}
     peerDependencies:
       '@types/react': ^16.14.41 || 17 || 18
       react: ^16.8 || 17 || 18
@@ -260,8 +260,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@types/node@22.13.11':
-    resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
+  '@types/node@24.1.0':
+    resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
 
   '@types/react-dom@19.0.4':
     resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
@@ -314,8 +314,8 @@ packages:
   caniuse-lite@1.0.30001706:
     resolution: {integrity: sha512-3ZczoTApMAZwPKYWmwVbQMFpXBDds3/0VciVoUwPUbldlYyVLmRVuRs/PcUZtHpbLRpzzDvrvnFuREsGt6lUug==}
 
-  canvas@3.1.0:
-    resolution: {integrity: sha512-tTj3CqqukVJ9NgSahykNwtGda7V33VLObwrHfzT0vqJXu7J4d4C/7kQQW3fOEGDfZZoILPut5H00gOjyttPGyg==}
+  canvas@3.1.2:
+    resolution: {integrity: sha512-Z/tzFAcBzoCvJlOSlCnoekh1Gu8YMn0J51+UAuXJAbW1Z6I9l2mZgdD7738MepoeeIcUdDtbMnOg6cC7GJxy/g==}
     engines: {node: ^18.12.0 || >= 20.9.0}
 
   capital-case@1.0.4:
@@ -462,8 +462,8 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
-  gradient-parser@1.0.2:
-    resolution: {integrity: sha512-gR6nY33xC9yJoH4wGLQtZQMXDi6RI3H37ERu7kQCVUzlXjNedpZM7xcA489Opwbq0BSGohtWGsWsntupmxelMg==}
+  gradient-parser@1.1.1:
+    resolution: {integrity: sha512-Hu0YfNU+38EsTmnUfLXUKFMXq9yz7htGYpF4x+dlbBhUCvIvzLt0yVLT/gJRmvLKFJdqNFrz4eKkIUjIXSr7Tw==}
     engines: {node: '>=0.10.0'}
 
   has-property-descriptors@1.0.2:
@@ -522,8 +522,8 @@ packages:
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
-  konva@9.3.20:
-    resolution: {integrity: sha512-7XPD/YtgfzC8b1c7z0hhY5TF1IO/pBYNa29zMTA2PeBaqI0n5YplUeo4JRuRcljeAF8lWtW65jePZZF7064c8w==}
+  konva@9.3.22:
+    resolution: {integrity: sha512-yQI5d1bmELlD/fowuyfOp9ff+oamg26WOCkyqUyc+nczD/lhRa3EvD2MZOoc4c1293TAubW9n34fSQLgSeEgSw==}
 
   lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
@@ -667,8 +667,8 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  polotno@2.22.1:
-    resolution: {integrity: sha512-qNdHSNJ8nRo6saZyXTq2NMjAaT5vfnr5DRCkYuSGL7VvF5a2X3JqYsJ/mlTa2CS0LbTQfMosKn9LoD9qRJ17+Q==}
+  polotno@2.25.10:
+    resolution: {integrity: sha512-U8NhEuW2l1BuS7TkbdIuEpCPSSGHwuzoKh6NtvWIYYRR+lwGjLW5w3YIQwBuGrbc/0nFeEFqHB4szQ8ncTf1Cw==}
     peerDependencies:
       react: ^19
       react-dom: ^19
@@ -725,8 +725,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-konva-utils@1.1.0:
-    resolution: {integrity: sha512-3ylRN4eUeYU553tmY2Hgi69efrlUBjE8MLXXAQT+rLDBCPW4CwlvJFUCgPQoSEZmaJKTH/gvZz0Y4f8tUfV0rw==}
+  react-konva-utils@1.1.1:
+    resolution: {integrity: sha512-3GB3UmXjrOJpWRT3TXRFjRpGs9cBWSRqfWaKmvp2Ry5gF6LY9VziN49L6frOQ1h79ynpzsUwPfepefYm1dmyWw==}
     peerDependencies:
       konva: ^8.3.5 || ^9.0.0
       react: ^18.2.0 || ^19.0.0
@@ -895,8 +895,8 @@ packages:
   svg-round-corners@0.4.3:
     resolution: {integrity: sha512-9zxcdLa9Bh2Bddxa760wSzspWLJ1nTRMKIsVH6MjNm8QssbZGbmY0pOnjwrp/cST+mfod2l3lpbuKFe+c3wHjw==}
 
-  swr@2.3.3:
-    resolution: {integrity: sha512-dshNvs3ExOqtZ6kJBaAsabhPdHyeY4P2cKwRCniDVifBMoG/SVI7tfLWqPXriVspf2Rg4tPzXJTnwaihIeFw2A==}
+  swr@2.3.4:
+    resolution: {integrity: sha512-bYd2lrhc+VarcpkgWclcUi92wYCpOgMws9Sd1hG1ntAu0NEy+14CbotuFjshBU2kt9rYj9TSmDcybpxpeTU1fg==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -927,8 +927,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+  undici-types@7.8.0:
+    resolution: {integrity: sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==}
 
   upper-case-first@2.0.2:
     resolution: {integrity: sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==}
@@ -940,8 +940,8 @@ packages:
     resolution: {integrity: sha512-oCwdVC7mTuWiPyjLUz/COz5TLk6wgp0RCsN+wHZ2Ekneac9w8uuV0njcbbie2ME+Vs+d6duwmYuR3HgQXs1fOg==}
     engines: {node: '>= 0.4'}
 
-  use-image@1.1.1:
-    resolution: {integrity: sha512-n4YO2k8AJG/BcDtxmBx8Aa+47kxY5m335dJiCQA5tTeVU4XdhrhqR6wT0WISRXwdMEOv5CSjqekDZkEMiiWaYQ==}
+  use-image@1.1.4:
+    resolution: {integrity: sha512-P+swhszzHHgEb2X2yQ+vQNPCq/8Ks3hyfdXAVN133pvnvK7UK++bUaZUa5E+A3S02Mw8xOCBr9O6CLhk2fjrWA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -973,10 +973,10 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  '@blueprintjs/core@5.17.6(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@blueprintjs/core@5.19.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@blueprintjs/colors': 5.1.8
-      '@blueprintjs/icons': 5.20.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@blueprintjs/icons': 5.23.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@popperjs/core': 2.11.8
       classnames: 2.5.1
       normalize.css: 8.0.1
@@ -990,7 +990,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.0.12
 
-  '@blueprintjs/icons@5.20.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@blueprintjs/icons@5.23.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       change-case: 4.1.2
       classnames: 2.5.1
@@ -1000,10 +1000,10 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.0.12
 
-  '@blueprintjs/select@5.3.18(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@blueprintjs/select@5.3.20(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@blueprintjs/core': 5.17.6(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@blueprintjs/icons': 5.20.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@blueprintjs/core': 5.19.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@blueprintjs/icons': 5.23.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       classnames: 2.5.1
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -1135,9 +1135,9 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@types/node@22.13.11':
+  '@types/node@24.1.0':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 7.8.0
 
   '@types/react-dom@19.0.4(@types/react@19.0.12)':
     dependencies:
@@ -1196,7 +1196,7 @@ snapshots:
 
   caniuse-lite@1.0.30001706: {}
 
-  canvas@3.1.0:
+  canvas@3.1.2:
     dependencies:
       node-addon-api: 7.1.1
       prebuild-install: 7.1.3
@@ -1365,7 +1365,7 @@ snapshots:
 
   gopd@1.2.0: {}
 
-  gradient-parser@1.0.2: {}
+  gradient-parser@1.1.1: {}
 
   has-property-descriptors@1.0.2:
     dependencies:
@@ -1428,7 +1428,7 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  konva@9.3.20: {}
+  konva@9.3.22: {}
 
   lodash-es@4.17.21: {}
 
@@ -1550,17 +1550,17 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  polotno@2.22.1(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  polotno@2.25.10(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      '@blueprintjs/core': 5.17.6(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@blueprintjs/select': 5.3.18(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@blueprintjs/core': 5.19.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@blueprintjs/select': 5.3.20(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@meronex/icons': 4.0.0(react@19.0.0)
       cssom: 0.5.0
       fast-json-patch: 3.1.1
       functions-have-names: 1.2.3
       gifuct-js: 2.1.2
-      gradient-parser: 1.0.2
-      konva: 9.3.20
+      gradient-parser: 1.1.1
+      konva: 9.3.22
       mensch: 0.3.4
       mobx: 6.13.7
       mobx-react-lite: 4.1.0(mobx@6.13.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1571,14 +1571,14 @@ snapshots:
       react: 19.0.0
       react-color: 2.19.3(react@19.0.0)
       react-dom: 19.0.0(react@19.0.0)
-      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      react-konva-utils: 1.1.0(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-konva-utils: 1.1.1(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       react-sortablejs: 6.1.4(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sortablejs@1.15.6)
       react-window: 1.8.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       sortablejs: 1.15.6
       svg-round-corners: 0.4.3
-      swr: 2.3.3(react@19.0.0)
-      use-image: 1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      swr: 2.3.4(react@19.0.0)
+      use-image: 1.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/sortablejs'
@@ -1671,19 +1671,19 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-konva-utils@1.1.0(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  react-konva-utils@1.1.1(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
-      konva: 9.3.20
+      konva: 9.3.22
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      use-image: 1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      use-image: 1.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
-  react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.20)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@19.0.12)
       its-fine: 2.0.0(@types/react@19.0.12)(react@19.0.0)
-      konva: 9.3.20
+      konva: 9.3.22
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-reconciler: 0.31.0(react@19.0.0)
@@ -1882,7 +1882,7 @@ snapshots:
 
   svg-round-corners@0.4.3: {}
 
-  swr@2.3.3(react@19.0.0):
+  swr@2.3.4(react@19.0.0):
     dependencies:
       dequal: 2.0.3
       react: 19.0.0
@@ -1917,7 +1917,7 @@ snapshots:
 
   typescript@5.8.2: {}
 
-  undici-types@6.20.0: {}
+  undici-types@7.8.0: {}
 
   upper-case-first@2.0.2:
     dependencies:
@@ -1932,7 +1932,7 @@ snapshots:
       punycode: 1.4.1
       qs: 6.14.0
 
-  use-image@1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  use-image@1.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)

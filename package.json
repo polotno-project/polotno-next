@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "canvas": "^3.1.0",
+    "canvas": "^3.1.2",
     "next": "^15",
-    "polotno": "^2.25.8",
+    "polotno": "^2.25.10",
     "react": "^19",
     "react-dom": "^19"
   },
@@ -30,7 +30,7 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^22",
+    "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5"
