@@ -20,8 +20,8 @@ importers:
         specifier: ^15
         version: 15.2.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       polotno:
-        specifier: ^2.25.10
-        version: 2.25.10(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^2.28.3
+        version: 2.28.3(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19
         version: 19.0.0
@@ -522,8 +522,8 @@ packages:
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
-  konva@9.3.22:
-    resolution: {integrity: sha512-yQI5d1bmELlD/fowuyfOp9ff+oamg26WOCkyqUyc+nczD/lhRa3EvD2MZOoc4c1293TAubW9n34fSQLgSeEgSw==}
+  konva@10.0.2:
+    resolution: {integrity: sha512-NrZED6YG5BX5h3Xu8EZgLqhQ/+ZhxANYXmlIhMOfpBf+0ToExcdwE+Y46LyJOO/JR7FVeR3YTqon3eirnuo44A==}
 
   lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
@@ -667,8 +667,8 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  polotno@2.25.10:
-    resolution: {integrity: sha512-U8NhEuW2l1BuS7TkbdIuEpCPSSGHwuzoKh6NtvWIYYRR+lwGjLW5w3YIQwBuGrbc/0nFeEFqHB4szQ8ncTf1Cw==}
+  polotno@2.28.3:
+    resolution: {integrity: sha512-XvQ8XkD0a4CDua2qDXblyrb5t6KPDtpB3aIygsmZGtPGXa4+88CesKbnO/4iiRPgPGEmScP+JK5/yZtrG19n+Q==}
     peerDependencies:
       react: ^19
       react-dom: ^19
@@ -725,13 +725,13 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-konva-utils@1.1.1:
-    resolution: {integrity: sha512-3GB3UmXjrOJpWRT3TXRFjRpGs9cBWSRqfWaKmvp2Ry5gF6LY9VziN49L6frOQ1h79ynpzsUwPfepefYm1dmyWw==}
+  react-konva-utils@2.0.0:
+    resolution: {integrity: sha512-pOb+TF13gFAjfPmUqsE42J4GJ+xhUS97qS32p0NRTqSeqtamWyKJikGa1XeVvV5yItu9SWDo7onL79GGPG96HQ==}
     peerDependencies:
-      konva: ^8.3.5 || ^9.0.0
+      konva: ^8.3.5 || ^9.0.0 || ^10.0.0
       react: ^18.2.0 || ^19.0.0
       react-dom: ^18.2.0 || ^19.0.0
-      react-konva: ^18.2.10 || ^19.0.1
+      react-konva: ^18.2.14 || ^19.0.10
 
   react-konva@19.0.3:
     resolution: {integrity: sha512-MxaGCwKCo9DiGBPfsJKU1JShZ9YRsCjrJNF/KVyyzBB7UjrRtY7s46hH1Obr70y4trYZzFuqmW3ljB/mO0dAfA==}
@@ -1428,7 +1428,7 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  konva@9.3.22: {}
+  konva@10.0.2: {}
 
   lodash-es@4.17.21: {}
 
@@ -1550,7 +1550,7 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  polotno@2.25.10(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  polotno@2.28.3(@types/react@19.0.12)(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@blueprintjs/core': 5.19.0(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@blueprintjs/select': 5.3.20(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1560,7 +1560,7 @@ snapshots:
       functions-have-names: 1.2.3
       gifuct-js: 2.1.2
       gradient-parser: 1.1.1
-      konva: 9.3.22
+      konva: 10.0.2
       mensch: 0.3.4
       mobx: 6.13.7
       mobx-react-lite: 4.1.0(mobx@6.13.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1571,8 +1571,8 @@ snapshots:
       react: 19.0.0
       react-color: 2.19.3(react@19.0.0)
       react-dom: 19.0.0(react@19.0.0)
-      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      react-konva-utils: 1.1.1(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+      react-konva: 19.0.3(@types/react@19.0.12)(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-konva-utils: 2.0.0(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       react-sortablejs: 6.1.4(@types/sortablejs@1.15.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sortablejs@1.15.6)
       react-window: 1.8.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       sortablejs: 1.15.6
@@ -1671,19 +1671,19 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-konva-utils@1.1.1(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
+  react-konva-utils@2.0.0(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react-konva@19.0.3(@types/react@19.0.12)(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0):
     dependencies:
-      konva: 9.3.22
+      konva: 10.0.2
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-konva: 19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-konva: 19.0.3(@types/react@19.0.12)(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       use-image: 1.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
-  react-konva@19.0.3(@types/react@19.0.12)(konva@9.3.22)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-konva@19.0.3(@types/react@19.0.12)(konva@10.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@19.0.12)
       its-fine: 2.0.0(@types/react@19.0.12)(react@19.0.0)
-      konva: 9.3.22
+      konva: 10.0.2
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-reconciler: 0.31.0(react@19.0.0)
