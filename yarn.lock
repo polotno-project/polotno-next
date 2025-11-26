@@ -277,7 +277,7 @@
   resolved "https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.28.9.tgz"
   integrity sha512-HHM3nxyUZ3zAylX8ZEyrDNd2XZOnQ0D5XfunJF5FLQnZbHHYq4UWvW1QfelQNXv1ICNkwYhfxjwfnqivYB6bFg==
 
-"@types/react-reconciler@^0.32.2":
+"@types/react-reconciler@^0.32.3":
   version "0.32.3"
   resolved "https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.32.3.tgz"
   integrity sha512-cMi5ZrLG7UtbL7LTK6hq9w/EZIRk4Mf1Z5qHoI+qBh7/WkYkFXQ7gOto2yfUvPzF5ERMAhaXS5eTQ2SAnHjLzA==
@@ -683,10 +683,10 @@ picocolors@^1.0.0:
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
-polotno@^3.0.0-8:
-  version "3.0.0-8"
-  resolved "https://registry.npmjs.org/polotno/-/polotno-3.0.0-8.tgz"
-  integrity sha512-uJQbCspod9Z+CgT6l0nzJWi17GLrv0oWpLfKYYb0Wf7dVrY1Aw0qEJmG7Hb8WbgkMbXYqByVNdJ9LPT2HeyrfA==
+polotno@^3.0.0-9:
+  version "3.0.0-9"
+  resolved "https://registry.npmjs.org/polotno/-/polotno-3.0.0-9.tgz"
+  integrity sha512-+nt7oluAev6NOFWwHVo9d/TVzlxiAkm2wtRF3cQUBbLlnI3eK/0MNWmrADgQkbNPaUMBFNyHaux+NzwHlmga5A==
   dependencies:
     "@blueprintjs/core" "6.3.4"
     "@blueprintjs/icons" "^6.3.1"
@@ -702,7 +702,7 @@ polotno@^3.0.0-8:
     nanoid "^3.3.11"
     quill "^2.0.3"
     rasterizehtml "^1.4.0"
-    react-konva "^19.2.0"
+    react-konva "^19.2.1"
     react-konva-utils "^2.0.0"
     react-sortablejs "6.1.4"
     react-window "^1.8.11"
@@ -795,12 +795,12 @@ react-konva-utils@^2.0.0:
   dependencies:
     use-image "^1.1.1"
 
-"react-konva@^18.2.14 || ^19.0.10", react-konva@^19.2.0:
-  version "19.2.0"
-  resolved "https://registry.npmjs.org/react-konva/-/react-konva-19.2.0.tgz"
-  integrity sha512-Ofifq/rdNvff50+Lj8x86WSfoeQDvdysOlsXMMrpD2uWmDxUPrEYSRLt27iCfdovQZL6xinKRpX9VaL9xDwXDQ==
+"react-konva@^18.2.14 || ^19.0.10", react-konva@^19.2.1:
+  version "19.2.1"
+  resolved "https://registry.npmjs.org/react-konva/-/react-konva-19.2.1.tgz"
+  integrity sha512-sqZWCzQGpdMrU5aeunR0oxUY8UeCPbU8gnAYxMtAn6BT4coeSpiATKOctsoxRu6F56TAcF+s0c6Lul9ansNqQA==
   dependencies:
-    "@types/react-reconciler" "^0.32.2"
+    "@types/react-reconciler" "^0.32.3"
     its-fine "^2.0.0"
     react-reconciler "0.33.0"
     scheduler "0.27.0"
