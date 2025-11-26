@@ -10,23 +10,9 @@
   },
   "dependencies": {
     "next": "^16",
-    "polotno": "^2.29.5",
+    "polotno": "^3.0.0-8",
     "react": "^19",
     "react-dom": "^19"
-  },
-  "overrides": {
-    "polotno": {
-      "react": "^19",
-      "react-dom": "^19",
-      "react-konva": "^19.0.10"
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "polotno>react": "^19",
-      "polotno>react-dom": "^19",
-      "polotno>react-konva": "19.0.10"
-    }
   },
   "devDependencies": {
     "@types/node": "^24",
