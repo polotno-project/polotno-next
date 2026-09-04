@@ -5,7 +5,7 @@ import { PagesTimeline } from 'polotno/pages-timeline';
 import { ZoomButtons } from 'polotno/toolbar/zoom-buttons';
 import { SidePanel } from 'polotno/side-panel';
 import { Workspace } from 'polotno/canvas/workspace';
-import 'polotno/polotno.blueprint.css';
+import 'polotno/ui.css';
 
 import { createStore } from 'polotno/model/store';
 
